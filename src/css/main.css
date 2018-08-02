@@ -14,11 +14,8 @@ main div {
   flex-direction: column;
   text-align: center;
   border-radius: 5px;
-  position: absolute;
-  top: 50%;
-  margin-top: -100px;
-  left: 50%;
-  margin-left: -40%;
+
+  margin-top: 20px
 }
 
 main div h1 {
@@ -29,4 +26,31 @@ main div h1 {
 main div span {
   font-size: 10px;
   margin-top: 10px;
+}
+
+main div button {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+main section {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.active {
+  background-color: lightgreen;
+}
+
+main p {
+  border-radius: 5px;
+  background-color: #eee;
+  padding: 5px;
+  font-size: 12px;
+  height: 100px;
+  display: none;
 }
